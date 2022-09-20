@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Expandindo Cartões</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="panel active"
+            style="background-image: url(https://images.unsplash.com/photo-1558979158-65a1eaa08691?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);">
+            <h3>Explore o Mundo!</h3>
+        </div>
+
+        <div class="panel"
+            style="background-image: url('https://images.unsplash.com/photo-1572276596237-5db2c3e16c5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');">
+            <h3>Floresta Selvagem</h3>
+        </div>
+
+        <div class="panel"
+            style="background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80');">
+            <h3>Praia Ensolarada</h3>
+        </div>
+
+        <div class="panel"
+            style="background-image: url('https://images.unsplash.com/photo-1551009175-8a68da93d5f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80');">
+            <h3>Cidade no Inverno</h3>
+        </div>
+
+        <div class="panel"
+            style="background-image: url('https://images.unsplash.com/photo-1549880338-65ddcdfd017b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');">
+            <h3>Montanhas - Nuvens</h3>
+        </div>
+
+    </div>
+
+    <script>
+        const panels = document.querySelectorAll('.panel')
+
+        panels.forEach(panel => {
+            panel.addEventListener('click', () => {
+                removeActiveClasses()
+                panel.classList.add('active')
+            })
+        })
+
+        function removeActiveClasses() {
+            panels.forEach(panel => {
+                panel.classList.remove('active')
+            })
+        }
+
+    </script>
+
+
+
+</body>
+
+</html>
