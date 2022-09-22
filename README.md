@@ -2,7 +2,7 @@
 
 ![preview](./.github/cartoes.png)
 
-[Clique aqui para acessar](prdsilva80.github.io/expandir-cartoes/)
+[Clique aqui para acessar](https://prdsilva80.github.io/expandir-cartoes/)
 
 
 ## 🛠️ Ferramentas utilizadas
