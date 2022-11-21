@@ -1,4 +1,4 @@
-> Criado Projeto de Cartões Expansivos
+# Criado Projeto de Cartões Expansivos
 
 ![preview](./.github/cartoes.png)
 
@@ -7,7 +7,11 @@
 
 ## 🛠️ Ferramentas utilizadas
 
-![preview](./.github/html5.svg) ![preview](./.github/css3.svg) ![preview](./.github/javascript.svg) ![preview](./.github/git.svg) ![preview](./.github/github.svg)
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=vscode,html,css,js,git,github" />
+  </a>
+</p>
 
 ## 👨‍🎓 O que aprendi
 
@@ -17,4 +21,4 @@
 
 ## 📧 Contato
 
-- prdsilva717@gmail.com
+<a href = "mailto:probertos717@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank">
